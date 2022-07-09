@@ -1,6 +1,6 @@
-print("WelcomeQuizzie Rascals")
+print("Welcome to Quizzie Rascals")
 playing=input("Do you want to play? ")
-if playing.lower()!="yes":
+if playing.lower()!="Yes":
     quit()
 print("Okay lets play: ") 
 score=0  
@@ -9,9 +9,8 @@ if answer1.lower()=="cental processing unit" :
     print("correct") 
     score+=1
 else:
-    print("incorrect")    
-
-   
+    
+    print("incorrect")      
 answer2=input("What the does the PSU stands for? ")
 if answer2.lower()=="power supply unit" :
     print("correct") 
